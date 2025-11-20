@@ -1,0 +1,135 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 76px 47px;
+}
+
+.link-header {
+    color: #515151;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+    font-size: 24px;
+}
+
+.button-header {
+    background-color: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 24px;
+    width: 130px;
+    height: 41px;
+}
+
+.image-logo {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+
+}
+
+main {
+    margin: 1px;
+}
+
+section {
+    margin-left: 86px;
+    display: inline-block;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    line-height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    color: #515151;
+}
+
+p {
+    color: #848484;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 700px;
+}
+
+.button-explore {
+    background-color: #ADFF00;
+    border: none;
+    color: #000000;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 34px;
+    filter: drop-shadow(0px 4px 4px #9c9b9b);
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 65px;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 770px) {
+    
+    section{
+        margin: 0;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    .image-logo {
+        margin: 149px 22px 22px 24px;
+        width: 354px;
+        height: 317px;
+    }
+
+    .title{
+        font-size: 50px;
+        width: auto;
+        text-align: center;
+        margin: 3px 64px 7px 64px;
+        line-height: 100%;
+    }
+
+    h2{
+        font-size: 30px;
+        width: auto;
+        text-align: center;
+        margin: 7px auto 17px;
+        line-height: 100%;
+    
+    }
+    p{
+        display: none;
+    }
+
+    .button-explore{
+        display: block;
+        margin: 0 auto;
+    }
+}
